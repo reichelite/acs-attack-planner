@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "act-attack-planner"
+version = "1.0.0"
+description = "Aircraft Carrier Survival Attack Planner"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "reichelite", email = "reichelite@163.com"}
+]
+dependencies = [
+]
+
+[project.optional-dependencies]
+dev = [
+    "pyinstaller>=5.0",   # 打包工具
+]
+
+[tool.setuptools]
+# packages = ["."]
+
+[tool.pyinstaller]
