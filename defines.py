@@ -186,7 +186,7 @@ LANG_FILES = {
         "warn_no_valid_combo": "No valid combinations",
         "info_combo_result": "#{pos}: {name}  [ATK: {atk}, DEF: {defs}]",
         "info_combo_empty": "#{pos}: Empty",
-        "info_combo_summery": "Total DEF: {final_atk} | Total ATK: {final_def} | Strategy: {desc}",
+        "info_combo_summery": "Total ATK: {final_atk} | Total DEF: {final_def} | Strategy: {desc}",
         "info_cvl_result_none": "No combination meeting squadron limit (≤3)",
         "info_cvl_result": "CVL attack：Total ATK {total_atk} (Squadrons {fleet})",
         "info_strategy_best": "No loss, enemy eliminated (fewest squadrons, {card} cards)",
